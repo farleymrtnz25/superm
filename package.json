@@ -1,0 +1,17 @@
+{
+    "name": "supermercado",
+    "version": "1.0.0",
+    "description": "Sistema de ventas para supermercado",
+    "main": "backend/server.js",
+    "scripts": {
+      "start": "node backend/server.js",
+      "dev": "nodemon backend/server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "express-session": "^1.17.3"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22"
+    }
+  }
